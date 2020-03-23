@@ -1,0 +1,1 @@
+cmd_/home/r08922133/fibdrv/fibdrv.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/r08922133/fibdrv/fibdrv.ko /home/r08922133/fibdrv/fibdrv.o /home/r08922133/fibdrv/fibdrv.mod.o ;  true
